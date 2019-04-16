@@ -1,0 +1,83 @@
+.notepad-dlg-about {
+  background-color: #00800000;      
+  height: 100%;        
+  left: 0;          
+  position: fixed;            
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.notepad-dlg-about .dialogbox {    
+  border: 1px solid grey;
+  box-sizing: border-box;
+  cursor: default;
+  height: 160px;
+  margin: 0 auto;
+  position: relative;
+  top: 100px;
+  user-select: none;
+  width: 295px;
+}
+
+.notepad-dlg-about .titlebar {
+  background-color: white;
+  height: 30px;
+  line-height:30px;
+}
+
+.notepad-dlg-about .titlebar .title {
+  left: 10px;
+  font-size: 12px;
+  line-height: 30px;
+  position: absolute;
+  margin: 0;  
+}
+
+.notepad-dlg-about .titlebar .close-btn {
+  color: gray;
+  line-height: 30px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  width: 30px;
+}
+
+.notepad-dlg-about .titlebar .close-btn:hover {
+  background-color: red;
+  color: white;
+}
+
+.notepad-dlg-about .main{
+  background-color: #f0f0f0;
+  box-sizing: border-box;
+  height: 128px;
+  width: 293px;
+  padding: 15px;
+  position: relative;
+}
+
+.notepad-dlg-about .main h3 {
+ margin: 0px;
+ font-size: 12px;
+}
+
+.notepad-dlg-about .main .text {
+  margin: 5px 0px 20px 0px;
+  width: 260px;
+  height: 25px;
+
+}
+
+.notepad-dlg-about .main .btn-cancel {
+  width:75px;
+  height:28px;
+  float: right;
+}
+
+.notepad-dlg-about .main .btn-goto {
+  width:75px;
+  height:28px;
+  position: relative;
+  left: 100px;
+}

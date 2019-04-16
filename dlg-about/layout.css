@@ -1,0 +1,81 @@
+.notepad-dlg-about {
+  background-color: #00800000;      
+  height: 100%;        
+  left: 0;          
+  position: fixed;            
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.notepad-dlg-about .dialogbox {    
+  border: 0.5px solid blue;
+  box-sizing: border-box;
+  cursor: default;
+  height: 290px;
+  margin: 0 auto;
+  position: relative;
+  top: 100px;
+  user-select: none;
+  width: 395.5px;
+}
+
+.notepad-dlg-about .titlebar {
+  background-color: white;
+  height: 30px;
+  line-height:30px;
+}
+
+.notepad-dlg-about .titlebar .title {
+  left: 10px;
+  font-size: 12px;
+  line-height: 30px;
+  position: absolute;
+  margin: 0;  
+}
+
+.notepad-dlg-about .titlebar .close-btn {
+  color: gray;
+  line-height: 30px;
+  position: absolute;
+  right: 0px;
+  text-align: center;
+  width: 30px;
+}
+
+.notepad-dlg-about .titlebar .close-btn:hover {
+  background-color: red;
+  color: white;
+}
+
+.notepad-dlg-about .main{
+  background-color: #f0f0f0;
+  box-sizing: border-box;
+  height: 258px;
+  width: 394px;
+  padding: 15px;
+  position: relative;
+}
+
+.notepad-dlg-about .main h1 {
+  margin: 0px;
+  color: #0066CC;
+  left: 85px;
+  position: relative;
+  height: 80px;
+  line-height: 80px;
+  //margin-right: auto;
+}
+
+.notepad-dlg-about .main .info p{
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.notepad-dlg-about .main .btn-ok {
+  width:75px;
+  height:28px;
+  float: right;
+  position: relative;
+  top: 30px;
+}
