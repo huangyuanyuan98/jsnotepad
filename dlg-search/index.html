@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>关于对话框布局和测试页面</title>
+  <title>查找对话框布局和测试页面</title>
   <link rel="stylesheet" href="layout.css">
   <link rel="icon" href="https://i.wangding.in/favicon.ico" sizes="48x48" type="image/png">
   </head>
@@ -18,11 +18,10 @@
     $(function() {
         var $btnTest = $('div.test>input[type="button"]');
         $btnTest.click(function() {
-          $dlgGoto.show({
-            lineNum: 4,
-            totalLine: 5,
-            gotoHandler: function(){ console.log("goto btn click! GOTO 4 lines.")  } 
-          });          
+          $dlgSearch.show(function(content) {
+            console.log("search btn click!");
+            console.log(content);                            
+          });            
         });
     });
   </script>

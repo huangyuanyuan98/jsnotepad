@@ -1,83 +1,92 @@
-.notepad-dlg-about {
+.notepad-dlg-search {   
   background-color: #00800000;      
   height: 100%;        
-  left: 0;          
+  left: 50px;          
   position: fixed;            
-  top: 0;
+  top:80px;
   width: 100%;
   z-index: 10;
 }
-
-.notepad-dlg-about .dialogbox {    
-  border: 1px solid grey;
-  box-sizing: border-box;
-  cursor: default;
-  height: 160px;
-  margin: 0 auto;
-  position: relative;
-  top: 100px;
-  user-select: none;
-  width: 295px;
-}
-
-.notepad-dlg-about .titlebar {
+.notepad-dlg-titlebar{
   background-color: white;
   height: 30px;
   line-height:30px;
+  //border: 0.5px solid grey;
 }
-
-.notepad-dlg-about .titlebar .title {
+.notepad-dlg-titlebar p{
+  padding: 0;
+  margin: 0;
+  color: grey;
+}
+.title {
   left: 10px;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 30px;
   position: absolute;
   margin: 0;  
 }
 
-.notepad-dlg-about .titlebar .close-btn {
+.close-btn {
   color: gray;
   line-height: 30px;
   position: absolute;
-  right: 0;
+  right: 0px;
   text-align: center;
   width: 30px;
 }
 
-.notepad-dlg-about .titlebar .close-btn:hover {
-  background-color: red;
-  color: white;
+.notepad-dlg-search .dialogbox {
+  border: 1px solid grey;
+  height: 164px;
+  width: 414px;
 }
-
-.notepad-dlg-about .main{
+.notepad-dlg-search .main {
+  //border: 1px solid grey;
+  height: 134px;
+  padding: 6px;
   background-color: #f0f0f0;
   box-sizing: border-box;
-  height: 128px;
-  width: 293px;
-  padding: 15px;
   position: relative;
+  font-size: 12px;
 }
 
-.notepad-dlg-about .main h3 {
- margin: 0px;
- font-size: 12px;
+.notepad-dlg-search .main .txt-content {
+  box-sizing: border-box;
+  height: 26px;
+  margin: 10px;
+  width: 200px;
 }
 
-.notepad-dlg-about .main .text {
-  margin: 5px 0px 20px 0px;
-  width: 260px;
-  height: 25px;
-
+.notepad-dlg-search .main .btn-search {
+  position: absolute;
+  right: 8px;
+  top: 17px;
+  //width: 30px;
 }
 
-.notepad-dlg-about .main .btn-cancel {
-  width:75px;
-  height:28px;
-  float: right;
+.notepad-dlg-search .main .btn-cancel {  
+  position: absolute;        
+  right: 8px;
+  line-height: 30px;
+  text-align: center;        
+  //width: 30px;
 }
 
-.notepad-dlg-about .main .btn-goto {
-  width:75px;
-  height:28px;
-  position: relative;
-  left: 100px;
+.notepad-dlg-search .main .search-direction {
+  border-color: #f0f0f0;
+  box-sizing: border-box;
+  height: 52px;
+  left: 172px;
+  padding: 10px 5px;
+  position: absolute;
+  top: 64px;
+  width: 145px;
+}
+
+.notepad-dlg-search .main input[value="down"] {
+  margin-left: 5px;
+}
+
+.notepad-dlg-search .main input[value="capital-sense"] {
+  margin-top: 30px;
 }
