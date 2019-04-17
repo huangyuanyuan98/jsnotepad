@@ -13,7 +13,7 @@ var $dlgAbout = (function() {
   + '     <hr>'  
   + '     <div class="info">'
   + '       <p>作者：黄媛媛</p>'
-  + '       <p>仓库地址：<a href="https://github.com/wangding/jsnotepad/" target="_blank">https://github.com/wangding/jsnotepad/</a></p>'
+  + '       <p>仓库地址：<a href="h://github.com/huangyuanyuan98/jsnotepad/" target="_blank">https://github.com/wangding/jsnotepad/</a></p>'
   + '     </div>'
   + '     <input class="btn-ok btn" type="button" value="确定">'
   + '   </div>'                                                                                           
